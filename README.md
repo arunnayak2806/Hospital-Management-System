@@ -73,5 +73,65 @@ The main idea of this project is to make it easy for **patients**, **doctors**, 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/hospital-appointment-booking-app.git
+git clone https://github.com/arunnayak2806/Hospital-Management-System.git
+```
 
+### 2️⃣ Navigate to Project Folder
+```bash
+cd Hospital-Management-System
+```
+
+### 3️⃣ Install Dependencies
+
+npm install
+
+
+### 4️⃣ Create `.env` File
+In the **server** directory, create a `.env` file with the following:
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+PORT=4000
+```
+
+### 5️⃣ Run the App
+
+Start backend:
+```bash
+cd backend
+nodemon serve.js
+```
+
+Start frontend:
+```bash
+cd frontend 
+npm run dev
+```
+
+The app will run on:  
+👉 Frontend: http://localhost:5173  
+👉 Backend: http://localhost:4000  
+
+
+---
+
+## 🧩 Future Enhancements
+- 💳 Online payment integration (Razorpay/Stripe)  
+- 📱 SMS or Email appointment notifications  
+- 📅 Calendar view for appointment scheduling  
+- 🏥 Multiple hospital management  
+
+---
+
+## 👨‍💻 Developed By
+**Rathod Arun Nayak**  
+MERN Stack Developer  
+
+🔗 [GitHub](https://github.com/arunnayak2806) | 💼 [LinkedIn](https://www.linkedin.com/in/arun-nayak-27105a2b5/)
+
+---
+
+⭐ **If you like this project, don’t forget to star the repo!**
