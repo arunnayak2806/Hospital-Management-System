@@ -75,4 +75,3 @@ The main idea of this project is to make it easy for **patients**, **doctors**, 
 ```bash
 git clone https://github.com/your-username/hospital-appointment-booking-app.git
 
-### 🧑‍💼 Admin
